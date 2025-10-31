@@ -6,6 +6,11 @@
   --font-family: "Figtree", sans-serif;
 }
 
+h1:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
