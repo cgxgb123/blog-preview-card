@@ -17,6 +17,15 @@ body {
   padding: 1.5rem;
 }
 
+.card {
+  background-color: var(--white);
+  border: 1px solid var(--gray-950);
+  border-radius: 1rem;
+  box-shadow: 8px 8px 0 var(--gray-950);
+  padding: 1.5rem;
+  max-width: 21rem;
+}
+
 .tag {
   background-color: var(--yellow);
   color: var(--gray-950);
@@ -47,7 +56,6 @@ h1:hover {
   display: none;
 }
 
-/* Show on tablets and larger */
 @media (min-width: 600px) {
   .date,
   .author img {
