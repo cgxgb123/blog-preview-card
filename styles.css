@@ -20,6 +20,7 @@ h1 {
   font-size: 1.25rem;
   font-weight: 800;
   color: var(--gray-950);
+  text-decoration: dashed;
 }
 
 .card {
@@ -40,15 +41,6 @@ h1 {
   border-radius: 0.25rem;
   display: inline-flex;
   width: fit-content;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 
 h1:hover {
