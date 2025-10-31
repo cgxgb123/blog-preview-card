@@ -6,6 +6,17 @@
   --font-family: "Figtree", sans-serif;
 }
 
+body {
+  background-color: var(--yellow);
+  font-family: var(--font-family);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1.5rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
