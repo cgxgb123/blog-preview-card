@@ -8,7 +8,6 @@
 
 body {
   font-family: var(--font-family);
-  margin: 0;
 }
 
 h1 {
@@ -24,35 +23,19 @@ h1:hover {
   cursor: pointer;
 }
 
+.card img {
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+}
+
 .link-custom:hover {
   color: var(--yellow) !important;
   cursor: pointer;
 }
 
-.card {
-  background-color: var(--white);
-  border: 1px solid var(--gray-950);
-  border-radius: 1rem;
-  box-shadow: 8px 8px 0 var(--gray-950);
-  padding: 1.5rem;
-  max-width: 21rem;
-}
-
 .badge {
   font-size: 0.875rem;
   font-weight: 800;
-}
-
-.author {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  color: var(--gray-950);
-  margin-top: 1.5rem;
-}
-.author img {
-  width: 32px;
-  border-radius: 50%;
 }
 
 .date,
