@@ -7,19 +7,27 @@
 }
 
 body {
-  background-color: var(--yellow);
   font-family: var(--font-family);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   margin: 0;
   padding: 1.5rem;
 }
+
 h1 {
   font-size: 1.25rem;
   font-weight: 800;
   color: var(--gray-950);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+h1:hover {
+  color: var(--yellow);
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+
+.link-custom:hover {
+  color: var(--yellow);
+  cursor: pointer;
 }
 
 .card {
@@ -41,10 +49,9 @@ h1 {
   display: inline-flex;
   width: fit-content;
 }
-
-h1:hover {
-  color: var(--yellow);
-  cursor: pointer;
+.badge {
+  font-size: 0.875rem;
+  font-weight: 800;
 }
 
 .author {
@@ -57,10 +64,6 @@ h1:hover {
 .author img {
   width: 32px;
   border-radius: 50%;
-}
-a {
-  text-decoration: none;
-  color: inherit;
 }
 .date,
 .author img {
