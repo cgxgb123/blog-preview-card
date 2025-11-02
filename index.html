@@ -18,31 +18,38 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Frontend Mentor | Blog preview card</title>
   </head>
-  <body>
-    <main class="card">
-      <img
-        src="./blog-preview-card-main/assets/images/illustration-article.svg"
-        alt="Article illustration"
-      />
+  <body class="d-flex align-items-center bg-warning min-vh-100">
+    <main class="container">
+      <div class="row justify-content-center">
+        <div class="col-10 col-sm-10">
+          <div class="card border border-dark p-4">
+            <img
+              src="./blog-preview-card-main/assets/images/illustration-article.svg"
+              alt="Article illustration"
+            />
+            <div class="card-body">
+              <span class="tag">Learning</span>
+              <p class="date">Published 21 Dec 2023</p>
 
-      <span class="tag">Learning</span>
-      <p class="date">Published 21 Dec 2023</p>
+              <a href="https://www.linkedin.com/in/christiangblunt/">
+                <h1>HTML & CSS foundations</h1>
+              </a>
 
-      <a href="https://www.linkedin.com/in/christiangblunt/">
-        <h1>HTML & CSS foundations</h1>
-      </a>
+              <p>
+                These languages are the backbone of every website, defining
+                structure, content, and presentation.
+              </p>
 
-      <p>
-        These languages are the backbone of every website, defining structure,
-        content, and presentation.
-      </p>
-
-      <div class="author">
-        <img
-          src="./blog-preview-card-main/assets/images/image-avatar.webp"
-          alt="Greg Hooper"
-        />
-        <span class="fw-bold">Greg Hooper</span>
+              <div class="author">
+                <img
+                  src="./blog-preview-card-main/assets/images/image-avatar.webp"
+                  alt="Greg Hooper"
+                />
+                <span class="fw-bold text-dark small">Greg Hooper</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </body>
