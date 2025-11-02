@@ -9,7 +9,6 @@
 body {
   font-family: var(--font-family);
   margin: 0;
-  padding: 1.5rem;
 }
 
 h1 {
@@ -26,7 +25,7 @@ h1:hover {
 }
 
 .link-custom:hover {
-  color: var(--yellow);
+  color: var(--yellow) !important;
   cursor: pointer;
 }
 
@@ -39,16 +38,6 @@ h1:hover {
   max-width: 21rem;
 }
 
-.tag {
-  background-color: var(--yellow);
-  color: var(--gray-950);
-  font-weight: 800;
-  font-size: 0.875rem;
-  padding: 0.4rem 0.75rem;
-  border-radius: 0.25rem;
-  display: inline-flex;
-  width: fit-content;
-}
 .badge {
   font-size: 0.875rem;
   font-weight: 800;
@@ -65,6 +54,7 @@ h1:hover {
   width: 32px;
   border-radius: 50%;
 }
+
 .date,
 .author img {
   display: none;
@@ -74,19 +64,5 @@ h1:hover {
   .date,
   .author img {
     display: block;
-  }
-}
-
-@media (min-width: 600px) {
-  .card {
-    max-width: 22rem;
-    padding: 1.5rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .card {
-    max-width: 22rem;
-    padding: 1.75rem;
   }
 }
