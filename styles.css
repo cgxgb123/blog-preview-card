@@ -6,14 +6,7 @@
   --font-family: "Figtree", sans-serif;
 }
 
-body {
-  font-family: var(--font-family);
-}
-
 h1 {
-  font-size: 1.25rem;
-  font-weight: 800;
-  color: var(--gray-950);
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
@@ -21,21 +14,6 @@ h1:hover {
   color: var(--yellow);
   transform: translateY(-4px);
   cursor: pointer;
-}
-
-.card img {
-  border-radius: 0.75rem;
-  margin-bottom: 1rem;
-}
-
-.link-custom:hover {
-  color: var(--yellow) !important;
-  cursor: pointer;
-}
-
-.badge {
-  font-size: 0.875rem;
-  font-weight: 800;
 }
 
 .date,
